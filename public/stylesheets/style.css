@@ -1,0 +1,991 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* >>> HEADER <<< */
+.container a {
+  color: black;
+}
+
+.logotipo {
+  height: 85px;
+  margin-top: 10px;
+}
+
+.row .col-4 input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+
+.row .col-4 a ion-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.itemMenu {
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.containerNav {
+  height: 90px;
+}
+
+.firstNav a span {
+  font-weight: 500;
+}
+
+.col-1 ion-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.whatsapp {
+  width: 45px;
+  height: 30px;
+  margin-right: 7px;
+  color: #25D366;
+}
+
+.whatsappHeader {
+  color: #25D366;
+}
+
+.dropdown-menu li a ion-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.secondNav {
+  width: 100%;
+  height: 60px;
+  background-color: #e3242b;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 1rem;
+  transition: transform 0.2s;
+}
+
+.secondNav a {
+  color: white;
+}
+
+.secondNav .navItens:hover {
+  transform: scale(1.1);
+}
+
+.secondNav span {
+  font-size: 20px;
+}
+
+
+/* >>> FIRST BANNER (PROMOS) <<< */
+.firstBanner img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+
+/* >>> CATEGORIES <<< */
+
+.separator {
+  color: rgba(9, 116, 239, 0.82);
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: 88%;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+  width: 200px;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.5em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.5em;
+}
+
+.category {
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.spanCategory {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #607d8b;
+}
+
+.categoryItem {
+  transition: transform 0.2s;
+}
+
+.categoryItem:hover {
+  transform: scale(1.1);
+}
+
+
+/* >>> FIRST CARDS <<< */
+.cards {
+  /* background-color: grey; */
+  /* height: 50vh; */
+  margin-top: 3rem;
+}
+
+.carouselProducts {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.secondCards {
+  margin-top: 30px;
+}
+
+.secondCards .row {
+  margin-top: 5vh;
+}
+
+.secondCards .button {
+  text-decoration: none;
+  outline: none;
+  background: white;
+  color: #607d8b;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  width: 170px;
+  height: 70px;
+}
+
+.buttonDescription {
+  width: 248px;
+  padding: 15px 15px;
+  color: white;
+  background: orange;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+/* >>> DESCRIPTION AND NEWSLETTER SECTION <<< */
+.company {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.newsletter {
+  background: #004abe;
+  color: white;
+  height: 10rem;
+  padding: 24px 32px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+
+.buttonCadastrar {
+  width: 160px;
+  padding: 10px 10px;
+  color: white;
+  background: orange;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+.name {
+  width: 100%;
+  height: 40px;
+  padding: 0;
+}
+
+.email {
+  width: 100%;
+  height: 40px;
+}
+
+/* >>> CERTIFICATES <<< */
+/* empty */
+/* empty */
+
+
+/* >>> SEPARATORS <<< */
+
+.separatorHome {
+
+  color: #607d8b;
+
+}
+
+/* >>> FOOTER SOCIAL MEDIA & PAYMENT METHODS <<< */
+
+.paymentMethods {
+  margin-left: 1rem;
+}
+
+.iconWhatsapp {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  color: #25D366;
+}
+
+.iconFacebook {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  color: #3b5998;
+}
+
+.iconYoutube {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  color: #c4302b;
+}
+
+.iconInstagram {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  color: #8d10d6;
+}
+
+
+/* >>> FOOTER SECTION <<< */
+.footerRange {
+  height: 120px;
+  background-color: #e3242b;
+  color: white;
+}
+
+.footerCopyRight {
+  background-color: #e3242b;
+  color: white;
+}
+
+/* footer div {
+  width: 90%;
+} */
+
+
+
+/* acima de 992 */
+@media (min-width: 992px) {
+  .dropdown {
+    display: none;
+  }
+
+  .itensHeaderMd {
+    display: none;
+  }
+
+  .rowBuscar {
+    display: none;
+  }
+
+  .containerNav {
+    height: 100px;
+  }
+
+
+}
+
+
+/* 577 até 991 */
+@media (max-width: 991px) {
+
+  .itensHeader {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .containerNav {
+    height: 120px;
+  }
+
+  .secondNav {
+    display: none !important;
+  }
+
+  .containerMenuMd {
+    display: flex;
+    justify-content: center;
+  }
+
+  .itensHeaderMd ion-icon {
+    font-size: 1.5rem
+  }
+
+  .itensHeaderMd span {
+    font-size: 0.8rem;
+
+  }
+
+  .inputBusca {
+    width: 100%;
+    margin-top: 10px;
+
+  }
+
+  .colInput {
+    margin-left: 12px;
+  }
+
+  .lupa {
+    top: 35%;
+    right: -6%;
+  }
+
+  .containerNav {
+    margin-bottom: 30px;
+  }
+
+  .firstNav .row {
+    display: flex;
+
+    max-width: 100%;
+  }
+
+  .containerHeaderMd {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-hamburguer {
+    margin-right: 20px;
+  }
+
+  .btn-secondary {
+    background: #fff;
+    color: #e3242b;
+    border-color: grey;
+  }
+
+  .btn-secondary:active {
+    background: #e3242b;
+  }
+
+  .btn-secondary:disabled {
+    background: #e3242b;
+  }
+
+  .btn-secondary:hover {
+    background: #e3242b;
+  }
+
+  .company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newsletter {
+    height: 310px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* abaixo de 576 */
+@media (max-width: 576px) {
+
+  .firstNav {
+    margin-bottom: 30px !important;
+  }
+
+  .firstNav .row {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .itensHeader {
+    display: none;
+  }
+
+  .menu-hamburguer {
+    align-self: flex-start;
+  }
+
+  .divLogo {
+    width: 220px;
+  }
+
+  .itensHeaderMd {
+    display: none;
+  }
+
+  .inputBusca {
+    margin-bottom: 30px;
+
+  }
+
+  .footerRange {
+    height: 150px;
+    max-width: 100%;
+    font-size: 12px;
+  }
+
+  .secondNav {
+    display: none !important;
+  }
+
+  .inputBusca {
+    display: none;
+  }
+
+
+  .lupa {
+    display: none;
+  }
+
+  .newsletter {
+    height: 330px;
+    font-size: 1rem;
+  }
+
+  .containerNav {
+    margin-bottom: 30px;
+  }
+
+  .certificates img {
+    margin-bottom: 2rem;
+  }
+
+  .paymentImg {
+    max-width: 100%;
+  }
+
+  footer {
+    height: 150px;
+    max-width: 100%;
+  }
+}
+a {
+  text-decoration: none;
+}
+
+
+/* >>> HEADER <<< */
+.container a {
+  color: black;
+}
+
+.logotipo {
+  height: 85px;
+  margin-top: 10px;
+}
+
+.row .col-4 input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+
+.row .col-4 a ion-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.itemMenu {
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.containerNav {
+  height: 90px;
+}
+
+.firstNav a span {
+  font-weight: 500;
+}
+
+.col-1 ion-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.whatsapp {
+  width: 45px;
+  height: 30px;
+  margin-right: 7px;
+  color: #25D366;
+}
+
+.whatsappHeader {
+  color: #25D366;
+}
+
+.dropdown-menu li a ion-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.secondNav {
+  width: 100%;
+  height: 60px;
+  background-color: #e3242b;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 1rem;
+  transition: transform 0.2s;
+}
+
+.secondNav a {
+  color: white;
+}
+
+.secondNav .navItens:hover {
+  transform: scale(1.1);
+}
+
+.secondNav span {
+  font-size: 20px;
+}
+
+
+/* >>> FIRST BANNER (PROMOS) <<< */
+.firstBanner img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+
+/* >>> CATEGORIES <<< */
+
+.separator {
+  color: rgba(9, 116, 239, 0.82);
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  width: 88%;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+  width: 200px;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.5em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.5em;
+}
+
+.category {
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.spanCategory {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #607d8b;
+}
+
+.categoryItem {
+  transition: transform 0.2s;
+}
+
+.categoryItem:hover {
+  transform: scale(1.1);
+}
+
+
+/* >>> FIRST CARDS <<< */
+.cards {
+  /* background-color: grey; */
+  /* height: 50vh; */
+  margin-top: 3rem;
+}
+
+.carouselProducts {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.secondCards {
+  margin-top: 30px;
+}
+
+.secondCards .row {
+  margin-top: 5vh;
+}
+
+.secondCards .button {
+  text-decoration: none;
+  outline: none;
+  background: white;
+  color: #607d8b;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  width: 170px;
+  height: 70px;
+}
+
+.buttonDescription {
+  width: 248px;
+  padding: 15px 15px;
+  color: white;
+  background: orange;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+/* >>> DESCRIPTION AND NEWSLETTER SECTION <<< */
+.company {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.newsletter {
+  background: #004abe;
+  color: white;
+  height: 10rem;
+  padding: 24px 32px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+
+.buttonCadastrar {
+  width: 160px;
+  padding: 10px 10px;
+  color: white;
+  background: orange;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+.name {
+  width: 100%;
+  height: 40px;
+  padding: 0;
+}
+
+.email {
+  width: 100%;
+  height: 40px;
+}
+
+/* >>> CERTIFICATES <<< */
+/* empty */
+/* empty */
+
+
+/* >>> SEPARATORS <<< */
+
+.separatorHome {
+
+  color: #607d8b;
+
+}
+
+/* >>> FOOTER SOCIAL MEDIA & PAYMENT METHODS <<< */
+
+.paymentMethods {
+  margin-left: 1rem;
+}
+
+.iconWhatsapp {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  color: #25D366;
+}
+
+.iconFacebook {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  color: #3b5998;
+}
+
+.iconYoutube {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  color: #c4302b;
+}
+
+.iconInstagram {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  color: #8d10d6;
+}
+
+
+/* >>> FOOTER SECTION <<< */
+.footerRange {
+  height: 120px;
+  background-color: #e3242b;
+  color: white;
+}
+
+.footerCopyRight {
+  background-color: #e3242b;
+  color: white;
+}
+
+/* footer div {
+  width: 90%;
+} */
+
+
+
+/* acima de 992 */
+@media (min-width: 992px) {
+  .dropdown {
+    display: none;
+  }
+
+  .itensHeaderMd {
+    display: none;
+  }
+
+  .rowBuscar {
+    display: none;
+  }
+
+  .containerNav {
+    height: 100px;
+  }
+
+
+}
+
+
+/* 577 até 991 */
+@media (max-width: 991px) {
+
+  .itensHeader {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .containerNav {
+    height: 120px;
+  }
+
+  .secondNav {
+    display: none !important;
+  }
+
+  .containerMenuMd {
+    display: flex;
+    justify-content: center;
+  }
+
+  .itensHeaderMd ion-icon {
+    font-size: 1.5rem
+  }
+
+  .itensHeaderMd span {
+    font-size: 0.8rem;
+
+  }
+
+  .inputBusca {
+    width: 100%;
+    margin-top: 10px;
+
+  }
+
+  .colInput {
+    margin-left: 12px;
+  }
+
+  .lupa {
+    top: 35%;
+    right: -6%;
+  }
+
+  .containerNav {
+    margin-bottom: 30px;
+  }
+
+  .firstNav .row {
+    display: flex;
+
+    max-width: 100%;
+  }
+
+  .containerHeaderMd {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-hamburguer {
+    margin-right: 20px;
+  }
+
+  .btn-secondary {
+    background: #fff;
+    color: #e3242b;
+    border-color: grey;
+  }
+
+  .btn-secondary:active {
+    background: #e3242b;
+  }
+
+  .btn-secondary:disabled {
+    background: #e3242b;
+  }
+
+  .btn-secondary:hover {
+    background: #e3242b;
+  }
+
+  .company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newsletter {
+    height: 310px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* abaixo de 576 */
+@media (max-width: 576px) {
+
+  .firstNav {
+    margin-bottom: 30px !important;
+  }
+
+  .firstNav .row {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .itensHeader {
+    display: none;
+  }
+
+  .menu-hamburguer {
+    align-self: flex-start;
+  }
+
+  .divLogo {
+    width: 220px;
+  }
+
+  .itensHeaderMd {
+    display: none;
+  }
+
+  .inputBusca {
+    margin-bottom: 30px;
+
+  }
+
+  .footerRange {
+    height: 150px;
+    max-width: 100%;
+    font-size: 12px;
+  }
+
+  .secondNav {
+    display: none !important;
+  }
+
+  .inputBusca {
+    display: none;
+  }
+
+
+  .lupa {
+    display: none;
+  }
+
+  .newsletter {
+    height: 330px;
+    font-size: 1rem;
+  }
+
+  .containerNav {
+    margin-bottom: 30px;
+  }
+
+  .certificates img {
+    margin-bottom: 2rem;
+  }
+
+  .paymentImg {
+    max-width: 100%;
+  }
+
+  footer {
+    height: 150px;
+    max-width: 100%;
+  }
+}
