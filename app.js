@@ -21,6 +21,7 @@ app.use(cookieParser());
 
 //Renderizando as paginas.
 app.use('/', indexRouter);
+app.use('/checkout', indexRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
