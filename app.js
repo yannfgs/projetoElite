@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-//Renderizando as paginas.
+// Renderizando as paginas.
 app.use('/', indexRouter);
 app.use('/checkout', indexRouter);
 app.use('/users', usersRouter);
